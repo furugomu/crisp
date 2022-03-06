@@ -1,0 +1,48 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "clisp",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "/home/faerie/hoge/clisp"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/faerie/.pnpm-store/v3",
+    "virtualStoreDir": "/home/faerie/hoge/clisp/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/faerie/hoge/clisp",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "clisp-game-lib is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/clisp-game-lib"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "clisp-game-lib",
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/clisp-game-lib: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/clisp-game-lib: Not Found - 404\n    at RetryOperation._fn (/home/faerie/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:79604:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "crisp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crisp-game-lib": "^1.0.0",
+    "lodash.clonedeep": "4.5.0",
+    "sounds-some-sounds": "2.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash.clonedeep": "^4.5.6",
+    "vite": "^2.8.6"
+  },
+  "packageManager": "pnpm@6.11.0"
+}
