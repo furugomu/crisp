@@ -3,6 +3,6 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: process.env.CI ? "/crisp" : "/",
+  base: process.env.CI ? "/crisp/" : "/",
   root: "./",
 });
